@@ -1,0 +1,21 @@
+
+
+//User function Template for Java
+
+class Solution{
+    public static int kthSmallest(int[] arr, int l, int r, int k) 
+    { 
+        //Your code here
+       /* int j=0;
+        for(int i=0;i<r;i++)
+          {
+              if(arr.length>arr[i])
+              {
+                j=i-1;  
+              }
+          }*/
+        Arrays.sort(arr);
+        return arr[k-1];
+    } 
+}
+https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1?page=1&category[]=Arrays&sortBy=submissions
