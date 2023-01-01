@@ -6,3 +6,4 @@ class Solution {
         return (arr[n-1]);
     }
 }
+https://practice.geeksforgeeks.org/problems/maximum-value-in-a-bitonic-array3001/0
