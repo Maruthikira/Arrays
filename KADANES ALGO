@@ -1,0 +1,28 @@
+
+
+class Solution{
+
+    // arr: input array
+    // n: size of array
+    //Function to find the sum of contiguous subarray with maximum sum.
+    long maxSubarraySum(int arr[], int n)
+    {
+        int curs=arr[0],finals=-9999,prevs=0;
+        int i,j,k;
+        for(i=0;i<n;i++)
+        {   curs=0;
+             for(j=i;j<n;j++)
+             {  
+                curs+=arr[j];
+                if(curs>finals)
+                  finals=curs;
+             }
+        }
+        long a =finals;
+        return a;
+           
+        
+    }
+    
+}
+https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1?page=1&category[]=Arrays&sortBy=submissions
