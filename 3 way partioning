@@ -8,3 +8,4 @@ class Solution{
         Arrays.sort(array);
     }
 }
+https://practice.geeksforgeeks.org/problems/three-way-partitioning/0
